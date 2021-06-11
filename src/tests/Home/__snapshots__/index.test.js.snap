@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> Debe renderizar el componente 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.h1>
+      Github 
+      <span>
+        Jobs
+      </span>
+    </styled.h1>
+    <Form>
+      <div>
+        <div>
+          <div>
+            <label
+              htmlFor=""
+            >
+              <Input
+                handleChange={[Function]}
+                name="jobName"
+                placeholder="title, company, expertice"
+                type="text"
+              />
+            </label>
+            <Input
+              type="submit"
+              value="Search"
+            />
+          </div>
+        </div>
+      </div>
+      <label
+        onChange={[Function]}
+      >
+        <span>
+          <ForwardRef(SvgCheck) />
+        </span>
+        Full Time
+        <Input
+          dontShowPromptCheckbox={true}
+          name="fullTime"
+          type="checkbox"
+          value={true}
+        />
+      </label>
+      <span>
+        Location
+      </span>
+      <label
+        htmlFor=""
+        onChange={[Function]}
+      >
+        <Input
+          name="cityNameInput"
+          placeholder="City, state, zip code or country"
+          type="text"
+        />
+      </label>
+      <fieldset>
+        <label
+          htmlFor="london"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="london"
+            name="cityNameInput"
+            type="radio"
+            value="london"
+          />
+          London
+        </label>
+        <label
+          htmlFor="amsterdam"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="amsterdam"
+            name="cityNameInput"
+            type="radio"
+            value="amsterdam"
+          />
+          Amsterdam
+        </label>
+        <label
+          htmlFor="newyork"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="new york"
+            name="cityNameInput"
+            type="radio"
+            value="new york"
+          />
+          New York
+        </label>
+        <label
+          htmlFor="berlin"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="berlin"
+            name="cityNameInput"
+            type="radio"
+            value="berlin"
+          />
+          Berlin
+        </label>
+      </fieldset>
+    </Form>
+    <h1>
+      Ningun job en tu ubicación
+    </h1>
+    <s
+      paginate={[Function]}
+      postsPerPage={5}
+      totalPosts={0}
+    />
+    <Footer />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<Home/> Debe renderizar lo que devuelva el fetch 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.h1>
+      Github 
+      <span>
+        Jobs
+      </span>
+    </styled.h1>
+    <Form>
+      <div>
+        <div>
+          <div>
+            <label
+              htmlFor=""
+            >
+              <Input
+                handleChange={[Function]}
+                name="jobName"
+                placeholder="title, company, expertice"
+                type="text"
+              />
+            </label>
+            <Input
+              type="submit"
+              value="Search"
+            />
+          </div>
+        </div>
+      </div>
+      <label
+        onChange={[Function]}
+      >
+        <span>
+          <ForwardRef(SvgCheck) />
+        </span>
+        Full Time
+        <Input
+          dontShowPromptCheckbox={true}
+          name="fullTime"
+          type="checkbox"
+          value={true}
+        />
+      </label>
+      <span>
+        Location
+      </span>
+      <label
+        htmlFor=""
+        onChange={[Function]}
+      >
+        <Input
+          name="cityNameInput"
+          placeholder="City, state, zip code or country"
+          type="text"
+        />
+      </label>
+      <fieldset>
+        <label
+          htmlFor="london"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="london"
+            name="cityNameInput"
+            type="radio"
+            value="london"
+          />
+          London
+        </label>
+        <label
+          htmlFor="amsterdam"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="amsterdam"
+            name="cityNameInput"
+            type="radio"
+            value="amsterdam"
+          />
+          Amsterdam
+        </label>
+        <label
+          htmlFor="newyork"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="new york"
+            name="cityNameInput"
+            type="radio"
+            value="new york"
+          />
+          New York
+        </label>
+        <label
+          htmlFor="berlin"
+          onChange={[Function]}
+        >
+          <Input
+            checked={false}
+            id="berlin"
+            name="cityNameInput"
+            type="radio"
+            value="berlin"
+          />
+          Berlin
+        </label>
+      </fieldset>
+    </Form>
+    <Card
+      company="ISE"
+      companyLogo="https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmlpIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--51899c4af7f26c0b14708f451979b9a803096b39/ISE_Logo_rgb.jpg"
+      createdAt="Fri May 07 17:56:37 UTC 2021"
+      description=" @ISEsecurity and @IoTvillage"
+      key="0691096c-1b44-47e7-9767-15fe5e1dec5a"
+      location="Baltimore, MD"
+      title="Mid-Senior Full Stack Developer"
+      type="Full Time"
+    />
+    <s
+      paginate={[Function]}
+      postsPerPage={5}
+      totalPosts={1}
+    />
+    <Footer />
+  </styled.div>
+</Fragment>
+`;

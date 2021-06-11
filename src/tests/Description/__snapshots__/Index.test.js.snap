@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Description/> debe retornar el componente description 1`] = `
+<Fragment>
+  <Button
+    onClick={[Function]}
+  >
+    Back to search
+  </Button>
+  <styled.h2>
+    algo
+  </styled.h2>
+  <styled.p>
+    Please email a copy of your resume and online portfolio to
+     
+    <a
+      href=""
+    >
+      wes@kasisto.com
+    </a>
+     & CC 
+    <a
+      href=""
+    >
+      eric@kasisto.com
+    </a>
+  </styled.p>
+  <Styled(styled.h2) />
+  <Button>
+    full
+  </Button>
+  <Span
+    block={true}
+    clock={true}
+  >
+    5 days ago
+  </Span>
+  <styled.div>
+    <img
+      alt="algo"
+      src="sasa"
+    />
+    <div>
+      <h3>
+        algo
+      </h3>
+      <Span
+        world={true}
+      >
+        New York
+      </Span>
+    </div>
+  </styled.div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "algo",
+      }
+    }
+  />
+  <styled.p>
+    algo
+  </styled.p>
+</Fragment>
+`;
